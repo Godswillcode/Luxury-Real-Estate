@@ -1,0 +1,36 @@
+.overView {
+  margin-bottom: 55px;
+}
+
+.overView_img-wrap {
+  height: 300px;
+  overflow: hidden;
+}
+
+.overView_img-wrap img {
+  transition: transform 0.2s ease;
+  height: 270px;
+}
+
+.overView_card:hover img {
+  transform: scale(1.1);
+}
+
+.overView h3 {
+  font-size: 20px;
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+
+.overView_info {
+  text-align: left;
+  padding-bottom: 7px;
+  color: #3c3c3c;
+}
+
+.overView .overView_link {
+  color: #1877f2;
+  font-size: 18px;
+  font-weight: 500;
+}
+

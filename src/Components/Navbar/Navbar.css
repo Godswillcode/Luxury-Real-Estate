@@ -1,0 +1,78 @@
+.navBar {
+  background-color: #f8f9fa !important;
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+  z-index: 9999;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 50px !important;
+}
+
+.navbar-logo {
+  justify-self: start;
+  cursor: pointer;
+}
+
+.navBar img {
+  height: 77px;
+  padding-bottom: 5px;
+}
+
+.nav_menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  text-align: center;
+  width: 65vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.nav_item {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.fa-caret-down {
+  color: #1888ff !important;
+}
+
+.nav_links {
+  color: #1888ff;
+  text-decoration: none;
+  margin: 1rem 0 0 0.3rem;
+  font-weight: 600;
+  padding: 3px 7px 0px 7px;
+  font-size: 17px;
+}
+
+.nav_links::after {
+  content: '';
+    width: 0%;
+    height: 3px;
+    display: block;
+    background-color: #2F4F4F;
+    margin-top: 7px;
+    transition: all .3s;
+}
+
+.nav_links:hover::after, .nav_links.is-active::after {
+  width: 100%;
+  transition: all .3s;
+}
+
+@media (max-width: 992px) {
+  .navBar {
+    display: none;
+  }
+
+  button {
+    display: none;
+  }
+}

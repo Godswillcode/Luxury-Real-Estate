@@ -1,0 +1,21 @@
+.service {
+    background: darkslategray;
+    color: #fff;
+    padding: 40px 0;
+    margin-bottom: 45px;
+}
+
+.service img {
+    width: 58px;
+}
+
+.service h3 {
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+.service p {
+    line-height: 1.5em;
+    font-size: 15px;
+}
+

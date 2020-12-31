@@ -1,0 +1,20 @@
+.about {
+  margin: 50px 0;
+}
+
+.about-content h3 {
+  font-weight: 600;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.about-content span {
+  color: #1877f2;
+  font-size: 20px;
+}
+
+.about-content p {
+  font-size: 15px;
+  color: gray;
+  text-align: justify;
+}

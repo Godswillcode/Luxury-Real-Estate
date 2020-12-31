@@ -1,0 +1,35 @@
+.dropdown_menu {
+  background: #fff;
+  width: 150px;
+  position: absolute;
+  top: 73px;
+  border-radius: 2px;
+ z-index: 9999;
+ padding-bottom: 7px;
+}
+
+.dropdown_menu li {
+  cursor: pointer;
+  margin-top: -10px !important;
+  text-align: center;
+}
+
+.dropdown_menu.clicked {
+  display: none;
+}
+
+.dropdown-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: #1888ff;
+  padding: 16px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.dropdown-link:hover {
+  color: #2F4F4F;
+}
+

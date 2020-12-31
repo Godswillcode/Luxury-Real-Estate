@@ -1,0 +1,20 @@
+.features {
+   margin: 20px 0;
+}
+
+.features h3 {
+   text-align: center;
+   padding-bottom: 15px;
+   font-weight: 400;
+   font-size: 26px;
+}
+
+.features p {
+    text-align: justify;
+    color: gray;
+    font-size: 15px;
+}
+
+.features .Tab p {
+    padding-top: 10px;
+}

@@ -1,0 +1,20 @@
+.mobileDropdown {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-bottom: 6px;
+    background: darkslategrey;
+}
+
+.mobileDropdown li {
+    margin-top: 13px !important;
+}
+
+.mobileDropdown-link {
+    font-size: 16px;
+    font-weight: 600 !important;
+    text-align: center !important;
+    color: #fff;
+}
+
+
+
