@@ -20,7 +20,7 @@ function ProjectItem({projectData}) {
                <h3>{location}</h3>
                <div className="d-flex justify-content-between align-items-lg-baseline">
                    <p>{name}</p>
-                   <Button btn_sm='true' as={Link} to={`${url}/${name}`}>Detail</Button>
+                   <Button btn_sm='true' as={Link} to={`${url}/${name}`}>Details</Button>
                </div>
            </div>
       </div>
