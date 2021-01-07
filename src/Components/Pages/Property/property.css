@@ -1,0 +1,23 @@
+.property {
+    margin-bottom: 5rem;
+}
+
+.property-content {
+    margin: 45px 0 35px 0;
+}
+.property-content h2 {
+    font-weight: 600;
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+
+.property-content span {
+    color: #e91e63;
+    font-size: 21px;
+}
+
+.property-content p {
+    font-size: 15px;
+    color: gray;
+    text-align: left;
+}

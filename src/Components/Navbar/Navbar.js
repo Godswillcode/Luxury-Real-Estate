@@ -47,7 +47,7 @@ function Navbar() {
             onMouseEnter={onMouseEnter1}
             onMouseLeave={onMouseLeave1}
           >
-            <NavLink to="about-us" className="nav_links">
+            <NavLink to="#!" className="nav_links">
               About Us <i className="fas fa-caret-down" />
             </NavLink>
             {dropdown1 && <Dropdown1 />}
@@ -58,7 +58,7 @@ function Navbar() {
             onMouseEnter={onMouseEnter2}
             onMouseLeave={onMouseLeave2}
           >
-            <NavLink to="/services" className="nav_links">
+            <NavLink to="#!" className="nav_links">
               Services <i className="fas fa-caret-down" />
             </NavLink>
             {dropdown2 && <Dropdown2 />}
@@ -67,10 +67,10 @@ function Navbar() {
           <li className="nav_item">
             <NavLink
               activeClassName="is-active"
-              to="/projectItem"
+              to="/properties"
               className="nav_links"
             >
-              ProjectItem
+              Properties
             </NavLink>
           </li>
 

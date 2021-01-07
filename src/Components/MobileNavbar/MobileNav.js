@@ -38,12 +38,12 @@ function MobileNav() {
 
 
                 <li className="mobileN-item" onClick={dropMenu2}>
-                    <NavLink to="/" className="mobile-links">Services  <i className='fas fa-caret-down' /> </NavLink>
+                    <NavLink to="/" className="mobile-links"> Services  <i className='fas fa-caret-down' /> </NavLink>
                     {dropdown2 && <MobileDropdown2 closeMobileMenu={closeMobileMenu}/>}
                 </li>
 
                 <li className="mobileN-item" onClick={closeMobileMenu}>
-                    <NavLink activeClassName='is-active' to="/project" className="mobile-links">Our Projects</NavLink>
+                    <NavLink activeClassName='is-active' to="/properties" className="mobile-links">Our Properties</NavLink>
                 </li>
 
                 <li className="mobileN-item" onClick={closeMobileMenu}>
