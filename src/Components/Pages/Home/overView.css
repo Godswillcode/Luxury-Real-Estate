@@ -10,6 +10,7 @@
 .overView_img-wrap img {
   transition: transform 0.2s ease;
   height: 270px;
+  width: 100%;
 }
 
 .overView_card:hover img {

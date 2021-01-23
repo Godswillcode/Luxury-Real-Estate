@@ -1,4 +1,5 @@
 
+/* REAL ESTATE */
 .service-title {
     margin-top: -50px;
     font-size: 33px;
@@ -19,44 +20,23 @@
   
   .service-item .service-item__title {
     position: relative;
-    font-size: 35px;
+    font-size:28px;
     margin-bottom: 25px;
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
   }
   
   .service-item .service-item__desc {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 25px;
-    margin-bottom: 0;
     text-align: justify;
-  }
-  
-  .service-item .btn__link {
-    margin-top: 27px;
-    height: 32px;
-    line-height: 32px;
-  }
-  
-  .service-item .btn__link i {
-    width: 22px;
-    height: 22px;
-    line-height: 22px;
-    background-color: #0e2b5c;
-    color: #ffffff;
-    border-radius: 50%;
-    display: inline-block;
-    -webkit-transition: all 0.3s linear;
-    transition: all 0.3s linear;
+    color: gray;
   }
   
   .service-item .service-item__content {
-    padding: 30px 21px 50px;
+    padding: 0 21px 8px;
   }
   
-  .service-item  img {
-     height: 300px;
-  }
   
   .service-item:hover {
     -webkit-transform: translateY(-5px);
@@ -66,22 +46,123 @@
   .service-item:hover .service-item__overlay {
     opacity: 1;
   }
+
   
-  .service-item:hover .btn__link {
-    color: maroon;
+/* media query */ 
+@media(max-width: 768px) {
+  .service-item .service-item__title {
+    font-size: 21px;
+    padding-top: 25px;
   }
-  
-  .service-item:hover .btn__link i {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    color: #ffffff;
-    background-color: maroon;
+
+}
+
+
+/* FARM ESTATE */
+.farm-estate {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.farm-img img {
+  height: 300px;
+  border: 1px solid grey;
+}
+
+.farm-estate-item {
+  margin-bottom: 40px;
+  color: gray;
+}
+
+.farm-estate-title {
+  border-left: 4px solid #1888ff;
+  padding-left: 20px;
+}
+
+.farm-estate-title h2 {
+  font-size: 24px;
+  color: black;
+}
+
+.farm-content-wrap i {
+  color: gray;
+  font-size: 15px;
+}
+
+.farm-content-wrap ul {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+/* INVESTMENT */
+.invest-content h3 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.invest-content img {
+  height: 270px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.invest-content p {
+  font-size: 16px;
+  color: grey;
+}
+
+.invest-content-wrap {
+  padding-top: 10px;
+}
+
+@media(max-width:768px) {
+  .invest-content-wrap {
+    text-align: center;
+    margin-bottom: 25px;
   }
-  
-  @media(max-width: 768px) {
-    .service-title {
-      margin-top: -20px;
-      font-size: 25px;
-    } 
-  }
+}
+
+
+.invest-process-container {
+     margin: 70px 0 0 0;
+}
+
+.invest-process-container h3 {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 7px;
+}
+
+.invest-process  .desc-wrap {
+  background: #cce6e6;
+  padding: 10px;
+  margin: 15px 0 15px 20px;
+  border-radius: 5px;
+  color: gray;
+  font-size: 16px;
+}
+
+.invest-process{
+  counter-reset: step;
+}
+
+.invest-process .desc-wrap:before{
+  content:counter(step);
+  counter-increment: step;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #bebebe;
+  display: block;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  line-height: 26px;
+  background: white;
+  color: #bebebe;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+ 
