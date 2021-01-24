@@ -21,7 +21,7 @@ function Home() {
         </div>
         <div className="header-overlay"></div>
         <div className="header-content-wrap d-flex justify-content-center align-items-center text-center">
-          <div className="header-content container" data-aos="zoom-in">
+          <div className="header-content container-fluid" data-aos="zoom-in">
             <h1>Find Your Dream Home</h1>
             <p>
               Luxury offer you simplified, rewarding, and secured homes

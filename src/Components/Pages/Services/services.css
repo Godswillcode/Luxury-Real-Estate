@@ -128,7 +128,7 @@
 }
 
 .invest-process-container h3 {
-  font-size: 25px;
+  font-size: 28px;
   font-weight: bold;
   padding-bottom: 7px;
 }
@@ -136,7 +136,7 @@
 .invest-process  .desc-wrap {
   background: #cce6e6;
   padding: 10px;
-  margin: 15px 0 15px 20px;
+  margin: 15px 0;
   border-radius: 5px;
   color: gray;
   font-size: 16px;
@@ -162,7 +162,63 @@
   font-weight: bold;
 }
 
+.our-why {
+   margin: 60px 0 50px 0;
+}
 
+.our-why-title h3 {
+     font-size: 28px;
+     font-weight: bold;
+     padding-bottom: 20px;
+}
 
+.our-why-content {
+  text-align: center;
+}
 
+.our-why-content img {
+  height: 100px;
+}
+
+.our-why-content h4 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.our-why-content p {
+    color: gray;
+}
+
+.get-luxury {
+  background: #1888ff;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 80%;
+  margin: 30px 0 30px 0;
+}
+
+.get-luxury .img-wrap img {
+  height: 80px;
+}
+
+.get-luxury h3 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 27px;
+  padding: 10px 0 20px 0;
+  text-align: center;
+}
+
+.get-luxury .phone img {
+  height: 200px;
+}
  
+
+@media(max-width: 768px) {
+  .img-wrap {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+}
