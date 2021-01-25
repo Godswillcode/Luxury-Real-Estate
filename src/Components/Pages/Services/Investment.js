@@ -132,8 +132,8 @@ function Investment() {
             <div className="col-lg-6">
                 <h3>Get Luxury and start investing</h3>
                 <div className="img-wrap d-flex justify-content-between text-center">
-                 <a href="#"> <img src="images/services/googleplay.png" alt="Google play"/></a>
-                  <a href="#"> <img src="images/services/appstore.png" alt="App store"/></a>
+                 <a href="#!"> <img src="images/services/googleplay.png" alt="Google play"/></a>
+                  <a href="#!"> <img src="images/services/appstore.png" alt="App store"/></a>
                 </div>
             </div>
             <div className="col-lg-6">
