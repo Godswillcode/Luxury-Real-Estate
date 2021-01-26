@@ -16,6 +16,10 @@ html {
   scroll-padding-top: 100px;
 }
 
+textarea {
+  resize: none !important;
+}
+
 /* Sections Banner
 --------------------------------*/
 .banner {

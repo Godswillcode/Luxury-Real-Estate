@@ -33,7 +33,7 @@
     margin-bottom: 10px;
   }
   
-  .footer_content .social-links a {
+   .social-links a {
      height: 35px;
      width: 35px;
      display: inline-block;
@@ -44,9 +44,10 @@
      border-radius: 50%;
      -webkit-transition: all 0.3s ease;
      transition: all 0.3s ease;
+     color: #fff;
   }
   
-  .footer_content .social-links a:hover {
+ .social-links a:hover {
      -webkit-transform: scale(1.1);
      transform: scale(1.1);
      color: #fff;

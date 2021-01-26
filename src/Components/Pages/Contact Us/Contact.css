@@ -1,0 +1,26 @@
+.contact-wrap {
+    margin: 70px 0;
+}
+
+.contact-wrap span {
+    display: block;
+    font-size: 16px;
+}
+
+.contact-wrap h2 {
+    padding-bottom: 16px;
+    font-weight: 400;
+    color: #1877f2;
+}
+
+.contact-wrap h4 {
+    font-size: 18px;
+}
+
+.contact-link a {
+    color: #000;;
+}
+
+.contact-link a:hover{
+   color: #1877f2;
+}

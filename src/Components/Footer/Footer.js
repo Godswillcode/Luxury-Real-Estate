@@ -17,17 +17,17 @@ const Footer = () => {
                   <p>
                     {" "}
                     <i className="fa fa-phone"></i>{" "}
-                    <a href="tel: +234 907 895 89">+234 907 895 89</a>
+                    <a href="tel:09038968345">+234 903 896 8345</a>
                   </p>
                   <p>
                     {" "}
-                    <i className="fa fa-map"></i> Km 20, Lekki-Epe Express Way,{" "}
-                    <span> Oke-Ado, Sangotedo, Ajah, Lagos</span>{" "}
+                    <i className="fa fa-map"></i> Suite, 18/18A, sky Mall,{" "}
+                    <span>Km 27, Lekki-Epe Expressway Lagos</span>{" "}
                   </p>
                   <p>
                     {" "}
                     <i className="fa fa-envelope"></i>{" "}
-                    <a href="mailto: mallMart@gmail.com">luxury@gmail.com</a>
+                    <a href="mailto: info@luxuryrealtor.com">info@luxuryrealtor.com</a>
                   </p>
                 </div>
               </FooterChild>
@@ -36,7 +36,7 @@ const Footer = () => {
             <div className="col-lg-4 col-md-4 col-sm-6 col-12 mb-3">
               <FooterChild>
                 <div className="footer_content">
-                  <h3>Additional Resources</h3>
+                  <h3>Quick Links</h3>
                   <ul>
                     <li>
                       <i className="fas fa-chevron-right"></i>
