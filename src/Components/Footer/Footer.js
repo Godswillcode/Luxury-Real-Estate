@@ -40,19 +40,19 @@ const Footer = () => {
                   <ul>
                     <li>
                       <i className="fas fa-chevron-right"></i>
-                      <a href="!#">Schedule an inspection</a>
+                      <a href="#!">Career</a>
                     </li>
                     <li>
                       <i className="fas fa-chevron-right"></i>
-                      <a href="!#">Careers</a>
+                      <a href="#!">Support</a>
                     </li>
                     <li>
                       <i className="fas fa-chevron-right"></i>
-                      <a href="!#">Term and conditions</a>
+                      <a href="#!">Term and conditions</a>
                     </li>
                     <li>
                       <i className="fas fa-chevron-right"></i>
-                      <a href="!#">Privacy policy</a>
+                      <a href="#!">Privacy policy</a>
                     </li>
                   </ul>
                 </div>
@@ -64,9 +64,7 @@ const Footer = () => {
                 <div className="footer_content text-center">
                   <h3>About us</h3>
                   <p>
-                    We offer you simplified, rewarding, and secure real estate
-                    investing. We make real estate investments accessible to
-                    everyone in a way that is simple, secure, and profitable
+                  A good real estate agent doesn’t just sell properties they sell themselves. It’s important to show your real personality. People will respond to you if you have a great attitude.
                   </p>
                   <p className="social-links mt-3">
                     <a href="!#">

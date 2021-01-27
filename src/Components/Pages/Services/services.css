@@ -1,62 +1,57 @@
-
 /* REAL ESTATE */
 .service-title {
-    margin-top: -50px;
-    font-size: 33px;
-  }
-  
-  .service-item {
-    position: relative;
-    margin-bottom: 30px;
-    padding: 40px 20px 37px 20px;
-    overflow: hidden;
-    border-radius: 4px;
-    background-color: #ffffff;
-    -webkit-box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.04);
-            box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.04);
-    -webkit-transition: all 0.4s linear;
-    transition: all 0.4s linear;
-  }
-  
-  .service-item .service-item__title {
-    position: relative;
-    font-size:28px;
-    margin-bottom: 25px;
-    -webkit-transition: all 0.2s linear;
-    transition: all 0.2s linear;
-  }
-  
-  .service-item .service-item__desc {
-    font-size: 16px;
-    line-height: 25px;
-    text-align: justify;
-    color: gray;
-  }
-  
-  .service-item .service-item__content {
-    padding: 0 21px 8px;
-  }
-  
-  
-  .service-item:hover {
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
-  }
-  
-  .service-item:hover .service-item__overlay {
-    opacity: 1;
-  }
+  margin-top: -50px;
+  font-size: 33px;
+}
 
-  
-/* media query */ 
-@media(max-width: 768px) {
+.service-item {
+  position: relative;
+  margin-bottom: 30px;
+  padding: 40px 20px 37px 20px;
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.04);
+  box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.04);
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+.service-item .service-item__title {
+  position: relative;
+  font-size: 28px;
+  margin-bottom: 25px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.service-item .service-item__desc {
+  font-size: 16px;
+  line-height: 25px;
+  text-align: justify;
+  color: gray;
+}
+
+.service-item .service-item__content {
+  padding: 0 21px 8px;
+}
+
+.service-item:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.service-item:hover .service-item__overlay {
+  opacity: 1;
+}
+
+/* media query */
+@media (max-width: 768px) {
   .service-item .service-item__title {
     font-size: 21px;
     padding-top: 25px;
   }
-
 }
-
 
 /* FARM ESTATE */
 .farm-estate {
@@ -96,8 +91,8 @@
 
 /* INVESTMENT */
 .invest-content h3 {
-    font-size: 26px;
-    font-weight: bold;
+  font-size: 26px;
+  font-weight: bold;
 }
 
 .invest-content img {
@@ -115,16 +110,15 @@
   padding-top: 10px;
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
   .invest-content-wrap {
     text-align: center;
     margin-bottom: 25px;
   }
 }
 
-
 .invest-process-container {
-     margin: 70px 0 0 0;
+  margin: 70px 0 0 0;
 }
 
 .invest-process-container h3 {
@@ -133,7 +127,7 @@
   padding-bottom: 7px;
 }
 
-.invest-process  .desc-wrap {
+.invest-process .desc-wrap {
   background: #cce6e6;
   padding: 10px;
   margin: 15px 0;
@@ -142,12 +136,12 @@
   font-size: 16px;
 }
 
-.invest-process{
+.invest-process {
   counter-reset: step;
 }
 
-.invest-process .desc-wrap:before{
-  content:counter(step);
+.invest-process .desc-wrap:before {
+  content: counter(step);
   counter-increment: step;
   width: 30px;
   height: 30px;
@@ -163,13 +157,13 @@
 }
 
 .our-why {
-   margin: 60px 0 50px 0;
+  margin: 60px 0 50px 0;
 }
 
 .our-why-title h3 {
-     font-size: 28px;
-     font-weight: bold;
-     padding-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 20px;
 }
 
 .our-why-content {
@@ -187,7 +181,7 @@
 }
 
 .our-why-content p {
-    color: gray;
+  color: gray;
 }
 
 .get-luxury {
@@ -198,7 +192,14 @@
   margin: 30px 0 30px 0;
 }
 
-.get-luxury .img-wrap img {
+/* .get-luxury .img-wrap img {
+  height: 80px;
+} */
+.get-luxury .img-wrap .app-store {
+  height: 50px;
+}
+
+.get-luxury .img-wrap .google-play {
   height: 80px;
 }
 
@@ -213,12 +214,27 @@
 .get-luxury .phone img {
   height: 200px;
 }
- 
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .img-wrap {
-    display: flex;
-    flex-direction: column;
     margin-bottom: 10px;
+    padding-right: 10px;
+  }
+  .get-luxury .img-wrap .app-store {
+    height: 50px;
+  }
+
+  .get-luxury .img-wrap .google-play {
+    height: 70px;
+  }
+}
+
+@media(max-width: 350px) {
+  .get-luxury .img-wrap .app-store {
+    height: 40px;
+  }
+
+  .get-luxury .img-wrap .google-play {
+    height: 60px;
   }
 }

@@ -16,7 +16,7 @@ function MobileNav() {
       const dropMenu2 = () => {setDropdown2(!dropdown2)}
      
     return (
-        <div className={click ? 'nav_overlay' : null}>
+     
          <nav className="mobilNav">
            <div className="top_wrap">
            <NavLink to="/">
@@ -28,22 +28,22 @@ function MobileNav() {
            </div>
              <ul className={click ? 'mobileNav-menu show' : 'mobileNav-menu'}>
                 <li className="mobileN-item" onClick={closeMobileMenu}>
-                    <NavLink exact={true} activeClassName='is-active' to="/" className="mobile-links">Welcome Home</NavLink>
+                    <NavLink exact={true} activeClassName='is-active' to="/" className="mobile-links">Home</NavLink>
                 </li>
 
                 <li className="mobileN-item" onClick={dropMenu1}>
-                    <NavLink to="/" className="mobile-links">About us <i className='fas fa-caret-down' /> </NavLink>
+                    <NavLink to="/" className="mobile-links">About us </NavLink>
                     {dropdown1 && <MobileDropdown1 closeMobileMenu={closeMobileMenu}/>}
                 </li>
 
 
                 <li className="mobileN-item" onClick={dropMenu2}>
-                    <NavLink to="/" className="mobile-links"> Services  <i className='fas fa-caret-down' /> </NavLink>
+                    <NavLink to="/" className="mobile-links"> Services </NavLink>
                     {dropdown2 && <MobileDropdown2 closeMobileMenu={closeMobileMenu}/>}
                 </li>
 
                 <li className="mobileN-item" onClick={closeMobileMenu}>
-                    <NavLink activeClassName='is-active' to="/properties" className="mobile-links">Our Properties</NavLink>
+                    <NavLink activeClassName='is-active' to="/properties" className="mobile-links">Properties</NavLink>
                 </li>
 
                 <li className="mobileN-item" onClick={closeMobileMenu}>
@@ -51,11 +51,11 @@ function MobileNav() {
                 </li>
 
                 <li className="mobileN-item" onClick={closeMobileMenu}>
-                    <NavLink to="/sign-up" className="NavBtn ml-2 mt-2">Sign Up</NavLink>
+                    <NavLink to="/sign-up" className="NavBtn ml-2 mt-2">Sign-Up / Log-In</NavLink>
                 </li>
              </ul>
          </nav>
-        </div>
+     
     )
 }
 

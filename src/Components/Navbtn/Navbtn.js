@@ -1,12 +1,12 @@
 import React from "react";
-import { NavLink } from 'react-router-dom'
-import './Navbtn.css'
+import { NavLink } from "react-router-dom";
+import "./Navbtn.css";
 
 function Navbtn() {
   return (
     <div>
       <NavLink to="sign-up">
-        <button className="NavBtn">Sign Up / log In</button>
+        <button className="NavBtn">Sign-Up / Log-In</button>
       </NavLink>
     </div>
   );

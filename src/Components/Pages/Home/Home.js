@@ -4,8 +4,8 @@ import "aos/dist/aos.css";
 import Testimonial from "../../Testimonials/Testimonial";
 import "./Home.css";
 import OverView from "./OverView";
-import Intro from "./Service";
-import { Button } from '../../Gbutton'
+import Intro from "./Intro";
+import { Button } from "../../Gbutton";
 
 function Home() {
   useEffect(() => {
@@ -13,29 +13,32 @@ function Home() {
   }, []);
   return (
     <>
-      <header className="v-header mb-5">
+      {/* ============================
+       Hero Video background
+    ============================== */}
+      <div className="v-header">
         <div className="fullscreen-video-wrap">
-          <video autoPlay loop muted width="100%">
-            <source src="video/heroVideo.mp4" type="video/mp4" />
+          <video autoPlay loop muted>
+            <source src="video/hey.mp4" type="video/mp4" />
           </video>
         </div>
-        <div className="header-overlay"></div>
-        <div className="header-content-wrap d-flex justify-content-center align-items-center text-center">
-          <div className="header-content container-fluid" data-aos="zoom-in">
-            <h1>Find Your Dream Home</h1>
-            <p>
-              Luxury offer you simplified, rewarding, and secured homes
-              <br /> We're your local source for affordable homes.
-            </p>
-            <Button heroBtn href="#overView">Find Out More</Button>
-          </div>
+        <div className="video-overlay"></div>
+        <div className="video-content container text-center" data-aos="zoom-in">
+          <h1>Find Your Dream Home</h1>
+          <p>
+            Luxury offer you simplified, rewarding, and secured homes
+            <br /> We're your local source for affordable homes.
+          </p>
+          <Button heroBtn href="#overView">
+            Find Out More
+          </Button>
         </div>
-      </header>
+      </div>
 
-    {/* Components */}
-      <Intro/>
-      <OverView/>
-      <Testimonial/>
+      {/* Components */}
+      <Intro />
+      <OverView />
+      <Testimonial />
     </>
   );
 }

@@ -1,7 +1,13 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./services.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function RealEstate() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <div>
       <div className="banner d-flex justify-content-center text-center">
@@ -11,7 +17,7 @@ function RealEstate() {
       </div>
 
       <div className="container mt-5 mb-5">
-        <div className="service-item">
+        <div className="service-item" data-aos="fade-up">
           <div className="row">
             <div className="col-sm-12 col-md-12 col-lg-6">
               <div className="service-item__img">
@@ -45,7 +51,7 @@ function RealEstate() {
           </div>
         </div>
 
-        <div className="service-item">
+        <div className="service-item" data-aos="fade-up">
           <div className="row">
             <div className="col-sm-12 col-md-12 col-lg-6">
               <div className="service-item__img">
@@ -78,7 +84,7 @@ function RealEstate() {
           </div>
         </div>
 
-        <div className="service-item">
+        <div className="service-item" data-aos="fade-up">
           <div className="row">
             <div className="col-sm-12 col-md-12 col-lg-6">
               <div className="service-item__img">
@@ -106,7 +112,7 @@ function RealEstate() {
         </div>
 
 
-        <div className="service-item">
+        <div className="service-item" data-aos="fade-up">
           <div className="row">
             <div className="col-sm-12 col-md-12 col-lg-6">
               <div className="service-item__img">
@@ -119,7 +125,7 @@ function RealEstate() {
             </div>
             <div className="col-sm-12 col-md-12 col-lg-6">
               <div className="service-item__content text-center">
-                <h4 className="service-item__title">BUILDING & CONSTRUCTION</h4>
+                <h4 className="service-item__title">BUILDING &amp; CONSTRUCTION</h4>
                 <p className="service-item__desc">
                 We develop and sell high quality genuine real estate properties at prime locations with focus on comfort and capital appreciation. At FOAN, we don’t just sell promises, we create your dream real estate.
                 </p>

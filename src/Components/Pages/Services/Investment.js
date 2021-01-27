@@ -98,7 +98,7 @@ function Investment() {
           </div>
         </div>
 
-        <div className="our-why">
+        <div className="our-why" data-aos="fade-up">
           <div className="our-why-title text-center">
             <h3>Why Invest in Real Estate with Luxury?</h3>
           </div>
@@ -126,14 +126,14 @@ function Investment() {
                  </div>
             </div>
         </div>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center" data-aos="fade-up">
             <div className="get-luxury" id="invest">
           <div className="row">
             <div className="col-lg-6">
                 <h3>Get Luxury and start investing</h3>
-                <div className="img-wrap d-flex justify-content-between text-center">
-                 <a href="#!"> <img src="images/services/googleplay.png" alt="Google play"/></a>
-                  <a href="#!"> <img src="images/services/appstore.png" alt="App store"/></a>
+                <div className="img-wrap d-flex justify-content-around align-items-baseline text-center">
+                 <a href="#!"> <img src="images/services/play-store-badge.png" alt="Google play" className="google-play"/></a>
+                  <a href="#!"> <img src="images/services/app-store-badge.png" alt="App store" className="app-store"/></a>
                 </div>
             </div>
             <div className="col-lg-6">

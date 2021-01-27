@@ -33,7 +33,7 @@ function Contact() {
       <div className="container">
            <div className="contact-wrap">
            <div className="row">
-              <div className="col-lg-6 col-md-6 col-12">
+              <div className="col-lg-6 col-md-6 col-12 mb-3">
                   <h2>REACH US</h2>
                  <div className="row">
                      <div className="col-lg-6">
@@ -44,16 +44,16 @@ function Contact() {
                        <span>Lagos.</span>
                         <h4 className="pt-3">Connect with us</h4>
                         <p className="social-links mt-3">
-                    <a href="!#">
+                    <a href="#!">
                       <i className="fab fa-instagram"></i>
                     </a>
-                    <a href="!#">
+                    <a href="#!">
                       <i className="fab fa-facebook-f"></i>
                     </a>
-                    <a href="!#">
+                    <a href="#!">
                       <i className="fab fa-twitter"></i>
                     </a>
-                    <a href="!#">
+                    <a href="#!">
                       <i className="fab fa-linkedin-in"></i>
                     </a>
                   </p>

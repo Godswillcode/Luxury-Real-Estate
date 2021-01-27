@@ -23,7 +23,7 @@ const OverView = () => {
           <OverViewDetail>
             <div className="overView_img-wrap">
               <img
-                src="images/1.jpg"
+                src="images/home/1.jpg"
                 alt="aimart real estate"
                 className="img-fluid"
               />
@@ -46,7 +46,7 @@ const OverView = () => {
           <OverViewDetail>
             <div className="overView_img-wrap">
               <img
-                src="images/2.jpg"
+                src="images/home/2.jpg"
                 alt="aimart real estate"
                 className="img-fluid"
               />
@@ -69,19 +69,19 @@ const OverView = () => {
           <OverViewDetail>
             <div className="overView_img-wrap">
               <img
-                src="images/3.jpg"
+                src="images/home/3.jpg"
                 alt="aimart real estate"
                 className="img-fluid"
               />
             </div>
             <div className="pl-3 pb-3">
-              <h3>Farm Estate</h3>
+              <h3>Our properties</h3>
               <p className="overView_info">
                 We offer you simplified, rewarding, and secure real estate
                 investing. We make real estate investments accessible to
                 everyone in a way that is simple, secure, and profitable
               </p>
-              <NavLink to="/farmEstate" className="overView_link">
+              <NavLink to="/properties" className="overView_link">
                 Discover more
               </NavLink>
             </div>

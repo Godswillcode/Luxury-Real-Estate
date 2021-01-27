@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./Service.css";
+import "./intro.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -11,7 +11,7 @@ function Intro() {
   return (
     <div className="intro-wrapper">
       <div className="container">
-        <div className="section-header" data-aos="zoom-in">
+        <div className="section-header">
           <h2>What we do</h2>
           <p>Here are some of our services</p>
         </div>

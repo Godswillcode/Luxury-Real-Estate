@@ -11,27 +11,27 @@ function Faq() {
   const questions = [
     {
       id: 1,
-      title: "Do I have to allow the use of cookes?",
+      title: "Who is Luxury?",
       info:
-        "Unicorn vinyl poutine brooklyn.",
+        "Luxury real estate is a Pan African real estate company with a knack to continuously innovate in the entire real estate value chain thereby making it easy and accessible to everyone craving to patronize it.",
     },
     {
       id: 2,
-      title: "How do I change my My Page password?",
+      title: "Where are your properties located?",
       info:
-        "Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse.",
+        "Our properties are located in Abuja, Lagos, Delta, Anambra, Imo, Enugu and still counting",
     },
     {
       id: 3,
-      title: "What is BankID?",
+      title: "What title does your properties have?",
       info:
-        "Enamel pin fam sustainable woke whatever venmo. Authentic asymmetrical put a bird on it, lumbersexual activated charcoal kinfolk banjo cred pickled sartorial.",
+        "It all varies from property to property. The legal or equitable title of the properties ranges from deed of assignment to governor's consent.",
     },
     {
       id: 4,
-      title: "Whose birth number can I use?",
+      title: "Where and how do i make payment?",
       info:
-        "Edison bulb direct trade gentrify beard lo-fi seitan sustainable roof party franzen occupy squid. Knausgaard cronut succulents, scenester readymade shabby chic lyft. Copper mug meh vegan gentrify.",
+        "All cash payments should be made to Luxury real estate designated bank(s) details. Otherwise, cheque(s) should be issued in favour of Luxury real estate . We shall not accept any responsibility for any liability that may arise, as result of deviation from the above condition.",
     },
   ];
 
