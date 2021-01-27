@@ -51,7 +51,7 @@ function MobileNav() {
                 </li>
 
                 <li className="mobileN-item" onClick={closeMobileMenu}>
-                    <NavLink to="/sign-up" className="NavBtn ml-2 mt-2">Sign-Up / Log-In</NavLink>
+                    <NavLink to="/logIn" className="NavBtn ml-2 mt-2">Sign-Up / Log-In</NavLink>
                 </li>
              </ul>
          </nav>

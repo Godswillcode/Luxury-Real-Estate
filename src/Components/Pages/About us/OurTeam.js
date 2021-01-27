@@ -60,10 +60,10 @@ const OurTeamItem = ({ image, name, title }) => {
                   <span>{title}</span>
               </div>
               <div className="social">
-                  <a href="facebook.com"><i className="fab fa-twitter"></i></a>
-                  <a href="facebook.com"><i className="fab fa-facebook"></i></a>
-                  <a href="facebook.com"><i className="fab fa-instagram"></i></a>
-                  <a href="facebook.com"><i className="fab fa-linkedin"></i></a>
+                  <a href="#!"><i className="fab fa-twitter"></i></a>
+                  <a href="#!"><i className="fab fa-facebook"></i></a>
+                  <a href="#!"><i className="fab fa-instagram"></i></a>
+                  <a href="#!"><i className="fab fa-linkedin"></i></a>
               </div>
           </div>
   </div>;

@@ -5,7 +5,7 @@ import "./Navbtn.css";
 function Navbtn() {
   return (
     <div>
-      <NavLink to="sign-up">
+      <NavLink to="logIn">
         <button className="NavBtn">Sign-Up / Log-In</button>
       </NavLink>
     </div>

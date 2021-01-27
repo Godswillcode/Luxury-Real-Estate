@@ -15,6 +15,7 @@ import Home from "./Components/Pages/Home/Home";
 import Footer from "./Components/Footer/Footer";
 import ScrollToTop from "./ScrollToTop";
 import Property from "./Components/Pages/Property/Property";
+import Login from "./Components/Pages/Sign Up/Login";
 
 
 function App() {
@@ -66,7 +67,7 @@ function App() {
           <Contact />{" "}
         </Route>
 
-    
+          <Route path="/logIn"> <Login/> </Route>
       </Switch>
 
       <Footer />
