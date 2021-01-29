@@ -31,4 +31,8 @@ ${({btn_sm}) => btn_sm && css`
   background-color: #e91e63;
 `}
 
+${({btn_property}) => btn_property && css`
+  background-color: darkslategray;
+`}
+
 `

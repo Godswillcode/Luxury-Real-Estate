@@ -27,7 +27,7 @@ function Navbar() {
     <>
       <nav className="navBar">
         <NavLink to="/" className="navbar-logo">
-          <img src="images/logo.png" alt="logo" />
+          <img src="/images/logo.png" alt="logo" />
         </NavLink>
 
         <ul className="nav_menu">

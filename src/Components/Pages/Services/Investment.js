@@ -126,8 +126,8 @@ function Investment() {
                  </div>
             </div>
         </div>
-            <div className="d-flex justify-content-center" data-aos="fade-up">
-            <div className="get-luxury" id="invest">
+            <div className="d-flex justify-content-center" id="invest">
+            <div className="get-luxury" >
           <div className="row">
             <div className="col-lg-6">
                 <h3>Get Luxury and start investing</h3>

@@ -16,6 +16,8 @@ import Footer from "./Components/Footer/Footer";
 import ScrollToTop from "./ScrollToTop";
 import Property from "./Components/Pages/Property/Property";
 import Login from "./Components/Pages/Sign Up/Login";
+import PropertyDetail from "./Components/Pages/Property/PropertyDetail";
+import propertyData from './Components/Pages/Property/propertyData'
 
 
 function App() {
@@ -29,42 +31,44 @@ function App() {
       <ScrollToTop />
       <Switch>
         <Route path="/" exact>
-          {" "}
-          <Home />{" "}
+          
+          <Home />
         </Route>
+
         <Route path="/aboutLuxury">
-          {" "}
-          <AboutLuxury />{" "}
+          <AboutLuxury />
         </Route>
+
         <Route path="/faq">
-          {" "}
-          <Faq />{" "}
+          <Faq />
         </Route>
+
         <Route path="/sign-up">
-          {" "}
-          <SignUp />{" "}
+          <SignUp />
         </Route>
+
         <Route path="/realEstate">
-          {" "}
-          <RealEstate />{" "}
+          <RealEstate />
         </Route>
+
         <Route path="/farmEstate">
-          {" "}
-          <FarmEstate />{" "}
+          <FarmEstate />
         </Route>
+
         <Route path="/investment">
-          {" "}
-          <Investment />{" "}
+          <Investment />
         </Route>
-        <Route path="/properties">
-          {" "}
-          <Property />{" "}
+
+        <Route exact path="/properties">
+          <Property propertyData={propertyData}/>
         </Route>
        
+       <Route path="/properties/:propertyName"> 
+         <PropertyDetail data={propertyData}/>
+       </Route>
 
         <Route path="/contact-us">
-          {" "}
-          <Contact />{" "}
+          <Contact />
         </Route>
 
           <Route path="/logIn"> <Login/> </Route>

@@ -32,13 +32,13 @@ function MobileNav() {
                 </li>
 
                 <li className="mobileN-item" onClick={dropMenu1}>
-                    <NavLink to="/" className="mobile-links">About us </NavLink>
+                    <NavLink to="#!" className="mobile-links">About us </NavLink>
                     {dropdown1 && <MobileDropdown1 closeMobileMenu={closeMobileMenu}/>}
                 </li>
 
 
                 <li className="mobileN-item" onClick={dropMenu2}>
-                    <NavLink to="/" className="mobile-links"> Services </NavLink>
+                    <NavLink to="#!" className="mobile-links"> Services </NavLink>
                     {dropdown2 && <MobileDropdown2 closeMobileMenu={closeMobileMenu}/>}
                 </li>
 

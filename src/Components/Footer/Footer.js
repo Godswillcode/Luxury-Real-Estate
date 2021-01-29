@@ -67,16 +67,16 @@ const Footer = () => {
                   A good real estate agent doesn’t just sell properties they sell themselves. It’s important to show your real personality. People will respond to you if you have a great attitude.
                   </p>
                   <p className="social-links mt-3">
-                    <a href="!#">
+                    <a href="#!">
                       <i className="fab fa-instagram"></i>
                     </a>
-                    <a href="!#">
+                    <a href="#!">
                       <i className="fab fa-facebook-f"></i>
                     </a>
-                    <a href="!#">
+                    <a href="#!">
                       <i className="fab fa-twitter"></i>
                     </a>
-                    <a href="!#">
+                    <a href="#!">
                       <i className="fab fa-linkedin-in"></i>
                     </a>
                   </p>
