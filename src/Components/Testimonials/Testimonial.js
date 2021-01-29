@@ -36,10 +36,7 @@ const Testimonial = () => {
               <h4>Freelancer</h4>
               <p>
                 <i className="fas fa-quote-left"></i>
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
-                veniam tempor noster veniam enim culpa labore duis sunt culpa
-                nulla illum cillum fugiat legam esse veniam culpa fore nisi
-                cillum quid.
+                Luxury has been great in trying to find us our dream home. We are always provided with the most recent listings, and Brad has been fantastic in chauffeuring us to listings of interest. I wouldn't recommend anyone else!!
                 <i className="fas fa-quote-right"></i>
               </p>
             </div>
@@ -64,10 +61,7 @@ const Testimonial = () => {
               <h4>Developer</h4>
               <p>
                 <i className="fas fa-quote-left"></i>
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
-                veniam tempor noster veniam enim culpa labore duis sunt culpa
-                nulla illum cillum fugiat legam esse veniam culpa fore nisi
-                cillum quid.
+                I am a Mortgage Broker in Victoria who has worked closely with Luxury for the past few years. He is an outstanding Realtor to work with because he not only gets the job done, but he genuinely cares about all of this clients.
                 <i className="fas fa-quote-right"></i>
               </p>
             </div>
@@ -91,10 +85,7 @@ const Testimonial = () => {
               <h4>Ceo &amp; Founder</h4>
               <p>
                 <i className="fas fa-quote-left"></i>
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
-                veniam tempor noster veniam enim culpa labore duis sunt culpa
-                nulla illum cillum fugiat legam esse veniam culpa fore nisi
-                cillum quid.
+                We have been working with Brad for over a year and have been extremely happy with the service he provides. Even though we are not actively looking we always have our eye on the market and Brad never fails to take our call and take us out to see the homes we're interested in. Great knowledge of the market and full of integrity
                 <i className="fas fa-quote-right"></i>
               </p>
             </div>

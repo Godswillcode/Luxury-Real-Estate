@@ -39,20 +39,12 @@ function AboutLuxury() {
                 Our <span>COMPANY</span>
               </h3>
               <p>
-                Sed ut perspiciaatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Vivamus suscipit tortor eget felis
-                porttitor volutpat. Cras ultricies ligula sed magna dictum
-                porta. Mauris blandit aliquet elit, eget tincidunt nibh
-                pulvinar.
+              Our top notch professionals in the built environment attend to all details leaving no stone untouched in ensuring delivery of beautiful homes that are budget friendly.
               </p>
 
               <p>
-                Sed ut perspiciaatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo..
+              We are equipped with up to date industry cutting edge knowledge, we simply make Real Estate simple be you an investor or a vendor.
+              Our top notch professionals in the built environment attend to all details leaving no stone untouched in ensuring delivery of beautiful homes that are budget friendly.
               </p>
             </div>
           </div>

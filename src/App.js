@@ -17,8 +17,7 @@ import ScrollToTop from "./ScrollToTop";
 import Property from "./Components/Pages/Property/Property";
 import Login from "./Components/Pages/Sign Up/Login";
 import PropertyDetail from "./Components/Pages/Property/PropertyDetail";
-import propertyData from './Components/Pages/Property/propertyData'
-
+import propertyData from "./Components/Pages/Property/propertyData";
 
 function App() {
   return (
@@ -31,7 +30,6 @@ function App() {
       <ScrollToTop />
       <Switch>
         <Route path="/" exact>
-          
           <Home />
         </Route>
 
@@ -60,18 +58,21 @@ function App() {
         </Route>
 
         <Route exact path="/properties">
-          <Property propertyData={propertyData}/>
+          <Property propertyData={propertyData} />
         </Route>
-       
-       <Route path="/properties/:propertyName"> 
-         <PropertyDetail data={propertyData}/>
-       </Route>
+
+        <Route path="/properties/:propertyName">
+          <PropertyDetail data={propertyData} />
+        </Route>
 
         <Route path="/contact-us">
           <Contact />
         </Route>
 
-          <Route path="/logIn"> <Login/> </Route>
+        <Route path="/logIn">
+          {" "}
+          <Login />{" "}
+        </Route>
       </Switch>
 
       <Footer />

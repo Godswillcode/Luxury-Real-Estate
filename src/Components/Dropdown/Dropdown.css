@@ -4,8 +4,8 @@
   position: absolute;
   top: 73px;
   border-radius: 2px;
- z-index: 9999;
- padding-bottom: 7px;
+  z-index: 9999;
+  padding-bottom: 7px;
 }
 
 .dropdown_menu li {
@@ -30,6 +30,5 @@
 }
 
 .dropdown-link:hover {
-  color: #2F4F4F;
+  color: #2f4f4f;
 }
-

@@ -27,7 +27,9 @@ const Footer = () => {
                   <p>
                     {" "}
                     <i className="fa fa-envelope"></i>{" "}
-                    <a href="mailto: info@luxuryrealtor.com">info@luxuryrealtor.com</a>
+                    <a href="mailto: info@luxuryrealtor.com">
+                      info@luxuryrealtor.com
+                    </a>
                   </p>
                 </div>
               </FooterChild>
@@ -64,7 +66,10 @@ const Footer = () => {
                 <div className="footer_content text-center">
                   <h3>About us</h3>
                   <p>
-                  A good real estate agent doesn’t just sell properties they sell themselves. It’s important to show your real personality. People will respond to you if you have a great attitude.
+                    A good real estate agent doesn’t just sell properties they
+                    sell themselves. It’s important to show your real
+                    personality. People will respond to you if you have a great
+                    attitude.
                   </p>
                   <p className="social-links mt-3">
                     <a href="#!">
@@ -109,13 +114,11 @@ const Footer = () => {
 
 // Child component
 function FooterChild({ children }) {
-  return(
+  return (
     <div className="d-flex justify-content-center">
-       <div>{children}</div>;
+      <div>{children}</div>;
     </div>
-  )
-  
- 
+  );
 }
 
 export default Footer;

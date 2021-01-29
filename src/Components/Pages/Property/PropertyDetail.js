@@ -135,9 +135,7 @@ function PropertyDetail({ data }) {
               </Tabs>
             </div>
           </div>
-          <div className="col-lg-3">
-               
-          </div>
+          <div className="col-lg-3"></div>
         </div>
       </div>
     );

@@ -37,38 +37,38 @@ function Faq() {
 
   return (
     <>
-    <div className="banner d-flex justify-content-center text-center">
-    <div className="banner-content">
-         <h2>Our Faqs</h2>
-    </div>
-  </div> 
-    <div className="faq_container bg-white mb-5 mt-3">
-      <div className="row faq_content_wrap" data-aos="zoom-in">
-        <div className="col-lg-6 col-md-6 col-12 mb-3">
-          <div className="faq_content">
-            <h1>Frequently Asked Questions About Us</h1>
-            <p>
-              Looking for more information? Our database of Frequently Asked
-              Questions is filled with a lot of answers to the most pressing
-              inquiries.
-            </p>
-          </div>
-        </div>
-
-        <div className="col-lg-6 col-md-6 col-12 mb-5">
-          <div className="faq_img_wrap">
-            <img
-              src="images/faq.png"
-              alt="aimart real estate"
-              className="img-fluid ml-3"
-            />
-          </div>
+      <div className="banner d-flex justify-content-center text-center">
+        <div className="banner-content">
+          <h2>Our Faqs</h2>
         </div>
       </div>
-      {questions.map((question) => (
-        <FaqChild {...question} key={question.id} />
-      ))}
-    </div>
+      <div className="faq_container bg-white mb-5 mt-3">
+        <div className="row faq_content_wrap" data-aos="zoom-in">
+          <div className="col-lg-6 col-md-6 col-12 mb-3">
+            <div className="faq_content">
+              <h1>Frequently Asked Questions About Us</h1>
+              <p>
+                Looking for more information? Our database of Frequently Asked
+                Questions is filled with a lot of answers to the most pressing
+                inquiries.
+              </p>
+            </div>
+          </div>
+
+          <div className="col-lg-6 col-md-6 col-12 mb-5">
+            <div className="faq_img_wrap">
+              <img
+                src="images/faq.png"
+                alt="aimart real estate"
+                className="img-fluid ml-3"
+              />
+            </div>
+          </div>
+        </div>
+        {questions.map((question) => (
+          <FaqChild {...question} key={question.id} />
+        ))}
+      </div>
     </>
   );
 }
@@ -91,13 +91,13 @@ function FaqChild({ title, info }) {
           <h3>{title}</h3>
         </div>
 
-         <div className="toGGle">
-         <i
-          className={
-            open ? "fas fa-chevron-circle-up" : "fas fa-chevron-circle-down"
-          }
-        ></i>
-         </div>
+        <div className="toGGle">
+          <i
+            className={
+              open ? "fas fa-chevron-circle-up" : "fas fa-chevron-circle-down"
+            }
+          ></i>
+        </div>
       </div>
 
       <div
@@ -119,4 +119,3 @@ function FaqChild({ title, info }) {
 }
 
 export default Faq;
-

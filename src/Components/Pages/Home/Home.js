@@ -13,24 +13,23 @@ function Home() {
   }, []);
   return (
     <>
-  
-    {/* ============================
+      {/* ============================
        Hero Picture background
     ============================== */}
-    <div id="hero">
+      <div id="hero">
         <div className="outer d-flex justify-content-center align-items-center">
           <div className="detail text-center text-white container">
-          <h1>Find Your Dream Home</h1>
-          <p>
-            Luxury offer you simplified, rewarding, and secured homes
-            <br /> We're your local source for affordable homes.
-          </p>
+            <h1>Find Your Dream Home</h1>
+            <p>
+              Luxury offer you simplified, rewarding, and secured homes
+              <br /> We're your local source for affordable homes.
+            </p>
             <Button heroBtn href="#overView">
-            Find Out More
-          </Button>
+              Find Out More
+            </Button>
           </div>
         </div>
-    </div>
+      </div>
 
       {/* Components */}
       <Intro />

@@ -5,8 +5,7 @@ const OurTeam = () => {
   return (
     <div className="ourTeam">
       <div className="container">
-
-      <div className="section-header">
+        <div className="section-header">
           <h2>Our Team</h2>
           <p>Meet our awesome members</p>
         </div>
@@ -52,21 +51,31 @@ const OurTeam = () => {
 // ChildComponent
 
 const OurTeamItem = ({ image, name, title }) => {
-  return <div className="member">
-          <img src={image} alt="luxury real estate team" className="img-fluid"/>
-          <div className="member-info">
-              <div className="member-info-content">
-              <h4>{name}</h4>
-                  <span>{title}</span>
-              </div>
-              <div className="social">
-                  <a href="#!"><i className="fab fa-twitter"></i></a>
-                  <a href="#!"><i className="fab fa-facebook"></i></a>
-                  <a href="#!"><i className="fab fa-instagram"></i></a>
-                  <a href="#!"><i className="fab fa-linkedin"></i></a>
-              </div>
-          </div>
-  </div>;
+  return (
+    <div className="member">
+      <img src={image} alt="luxury real estate team" className="img-fluid" />
+      <div className="member-info">
+        <div className="member-info-content">
+          <h4>{name}</h4>
+          <span>{title}</span>
+        </div>
+        <div className="social">
+          <a href="#!">
+            <i className="fab fa-twitter"></i>
+          </a>
+          <a href="#!">
+            <i className="fab fa-facebook"></i>
+          </a>
+          <a href="#!">
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a href="#!">
+            <i className="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default OurTeam;

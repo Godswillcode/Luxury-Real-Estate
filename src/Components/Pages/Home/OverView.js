@@ -8,7 +8,7 @@ const OverView = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
-  
+
   return (
     <div className="container-fluid overView" id="overView">
       <div className="container">
@@ -17,9 +17,9 @@ const OverView = () => {
           <p>Your trusted real estate company</p>
         </div>
       </div>
-
+      <div className="wrapper">
       <div className="row">
-        <div className="col-lg-4 col-md-4 col-sm-12 col-12 pb-3 mb-sm-3">
+        <div className="col-lg-4  pb-3 mb-sm-3">
           <OverViewDetail>
             <div className="overView_img-wrap">
               <img
@@ -28,7 +28,7 @@ const OverView = () => {
                 className="img-fluid"
               />
             </div>
-            <div className="pl-3 pb-3">
+            <div className="pb-3">
               <h3>Real Estate</h3>
               <p className="overView_info">
                 We offer you simplified, rewarding, and secure real estate
@@ -42,7 +42,7 @@ const OverView = () => {
           </OverViewDetail>
         </div>
 
-        <div className="col-lg-4 col-md-4 col-sm-12 col-12 pb-3 mb-sm-3">
+        <div className="col-lg-4 pb-3 mb-sm-3">
           <OverViewDetail>
             <div className="overView_img-wrap">
               <img
@@ -51,12 +51,10 @@ const OverView = () => {
                 className="img-fluid"
               />
             </div>
-            <div className="pl-3 pb-3">
+            <div className="pb-3">
               <h3>FAQ'S</h3>
               <p className="overView_info">
-                We offer you simplified, rewarding, and secure real estate
-                investing. We make real estate investments accessible to
-                everyone in a way that is simple, secure, and profitable
+              If you are  looking for more information? Our database of Frequently Asked Questions is filled with a lot of answers to the most pressing inquiries, we are here for you.
               </p>
               <NavLink to="/faq" className="overView_link">
                 Discover more
@@ -65,7 +63,7 @@ const OverView = () => {
           </OverViewDetail>
         </div>
 
-        <div className="col-lg-4 col-md-4 col-sm-12 col-12 pb-3 mb-sm-3">
+        <div className="col-lg-4 pb-3 mb-sm-3">
           <OverViewDetail>
             <div className="overView_img-wrap">
               <img
@@ -74,12 +72,10 @@ const OverView = () => {
                 className="img-fluid"
               />
             </div>
-            <div className="pl-3 pb-3">
+            <div className="pb-3">
               <h3>Our properties</h3>
               <p className="overView_info">
-                We offer you simplified, rewarding, and secure real estate
-                investing. We make real estate investments accessible to
-                everyone in a way that is simple, secure, and profitable
+              The No.1 Nigerian trusted real estate and property company with property in Nigeria for sale rent and lease. We offer Nigerian property seekers an easy and cheap way to find ...
               </p>
               <NavLink to="/properties" className="overView_link">
                 Discover more
@@ -88,17 +84,18 @@ const OverView = () => {
           </OverViewDetail>
         </div>
       </div>
+      </div>
     </div>
   );
 };
 
 // Child component
 const OverViewDetail = ({ children }) => {
-  return(
-      <div className="shadow overView_card" data-aos="zoom-in">
-          {children}
-      </div>
-  )
+  return (
+    <div className="shadow overView_card" data-aos="zoom-in">
+      {children}
+    </div>
+  );
 };
 
 export default OverView;

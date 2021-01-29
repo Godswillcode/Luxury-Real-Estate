@@ -5,13 +5,13 @@ import "./Dropdown.css";
 function Dropdown1() {
   const dropdownItem1 = [
     {
-        id: 1,
+      id: 1,
       title: "About Luxury",
       path: "/aboutLuxury",
       cName: "dropdown-link",
     },
     {
-        id: 2,
+      id: 2,
       title: "FAQ'S",
       path: "/faq",
       cName: "dropdown-link",

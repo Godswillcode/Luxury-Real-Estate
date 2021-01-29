@@ -23,8 +23,8 @@ function Intro() {
             <div className="col-lg-3 col-md-3 col-sm-6 col-12 mb-3">
               <Services
                 image="images/icons/4.png"
-                title="New Projects"
-                info="Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer elit imperdiet."
+                title="New Properties"
+                info="A wide range of international property to buy in Nigeria. See houses, apartments on luxury real estate."
               />
             </div>
 
@@ -32,7 +32,7 @@ function Intro() {
               <Services
                 image="images/icons/1.png"
                 title="Plots for Sale"
-                info="Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer elit imperdiet."
+                info="Live next to the creekside reserve and full-sized sports fields in Verdant Hill, Stage 12. Premium land for sale."
               />
             </div>
 
@@ -40,7 +40,7 @@ function Intro() {
               <Services
                 image="images/icons/2.png"
                 title="Luxury Villas"
-                info="Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer elit imperdiet."
+                info="Explore properties on LXV · At Luxury Villas, you will find properties ranging from offices, shops and warehouses."
               />
             </div>
 
@@ -48,7 +48,7 @@ function Intro() {
               <Services
                 image="images/icons/3.png"
                 title="Rent a House"
-                info="Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer elit imperdiet."
+                info="Are you moving to Lagos? Are you looking for an apartment or property to rent that fits into your budget."
               />
             </div>
           </div>

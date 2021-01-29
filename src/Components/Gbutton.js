@@ -1,4 +1,4 @@
-import btnStyle, { css } from 'styled-components'
+import btnStyle, { css } from "styled-components";
 
 export const Button = btnStyle.a`
 display: inline-block;
@@ -20,19 +20,25 @@ color: #fff;
 background-color: #1888ff;
 border-color: transparent;
 transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-${({heroBtn}) => heroBtn && css`
-padding: 0.5rem 1rem;
-font-size: 1.25rem;
-line-height: 1.5;
-border-radius: 0.3rem;
-`}
+${({ heroBtn }) =>
+  heroBtn &&
+  css`
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+  `}
 
-${({btn_sm}) => btn_sm && css`
-  background-color: #e91e63;
-`}
+${({ btn_sm }) =>
+  btn_sm &&
+  css`
+    background-color: #e91e63;
+  `}
 
-${({btn_property}) => btn_property && css`
-  background-color: darkslategray;
-`}
+${({ btn_property }) =>
+  btn_property &&
+  css`
+    background-color: darkslategray;
+  `}
 
-`
+`;
