@@ -94,8 +94,90 @@
     text-align: justify;
   }
 
-  
+ /*payment plan */
+.payment-title {
+  font-size: 35px;
+  font-weight: 400;
+}
 
+.single_plan {
+text-align: center;
+background: #262626;
+margin-top: 20px;
+transition: 0.7s;
+border-radius: 10px;
+}
+
+.single_plan h3 {
+font-size: 25px;
+font-weight: 600;
+text-align: center;
+margin: 0;
+margin-top: -100px;
+margin-bottom: 35px;
+color: #fff;
+text-transform: uppercase;
+}
+
+.single_plan h4 {
+font-size: 48px;
+font-weight: 500;
+color: #fff;
+}
+
+.single_plan span {
+  font-size: 30px;
+  margin-left: -5px;
+}
+
+.single_plan h5 {
+  color: #fff;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+.deal_top {
+position: relative;
+background: #2d62bd;
+font-size: 16px;
+padding: 136px 24px 0;
+border-radius: 0px 0px 100px 0px;
+}
+
+.deal_bottom {
+padding: 56px 16px 23px 0;
+}
+
+.deal_bottom ul {
+margin: 0;
+padding: 0;
+}
+
+.deal_bottom ul li {
+font-size: 17px;
+color: #fff;
+font-weight: 300;
+margin-top: 13px;
+border-top: 1px solid #ddd;
+padding-top: 16px;
+}
+
+
+.single_plan:hover {
+background: #2d62bd;
+}
+
+.single_plan:hover .deal_top {
+background: #262626;
+}
+
+.single_plan:hover .deal_top::after {
+border-top: 50px solid #262626;
+}
+
+
+
+/* MEDIA QUERY */
 @media(max-width: 768px) {
   .property-wrap {
     padding-left: 0px;
@@ -117,6 +199,10 @@
   .p-detail-wrap h2 {
     font-size: 30px;
   } 
+
+  .p-bottom h2 {
+    font-size: 30px;
+  }
 }
 
 

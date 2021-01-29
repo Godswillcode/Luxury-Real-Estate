@@ -6,7 +6,10 @@ const propertyData = [
         desc: "New Town Park is strategically located in shapati community of bogije,one of the emerging prime investment location. It’s a dream come through for everyone who desires a home and investment that can yield a return of above 99% interest within 6 months.",
         image: "/images/property/land1.jpg",
         price: "350,000",
-        type: "Land"
+        type: "Land",
+        mainLocation: "Awoyaya",
+        ADimension: "4 Bedroom Apartment",
+        title: "Governor’s Consent"
         },
         {
         id: "2",
@@ -28,7 +31,10 @@ const propertyData = [
             info: "Imperial garden estate is a modern estate with beautiful layout and amenities for recreation. It’s a gated community with adequate security features and functional road layout.",
             image: "/images/property/land2.jpg",
             price: "400,000",
-            type: "Land"
+            type: "Land",
+            mainLocation: "Awoyaya",
+            ADimension: "4 Bedroom Apartment",
+            title: "Governor’s Consent"
             },
         {
         id: "4",
@@ -39,6 +45,9 @@ const propertyData = [
         image: "/images/property/house2.jpg",
         price: "20,000,000",
         type: "House",
+        mainLocation: "Awoyaya",
+        ADimension: "4 Bedroom Apartment",
+        title: "Governor’s Consent"
         },
         {
             id: "5",
@@ -47,7 +56,10 @@ const propertyData = [
             desc: "Silver Heights is an immaculately presented estate located in an amiable environment with lots of natures and serenity. It is located at Igbogun, Ibeju lekki just few minutes away from Dangote refinery It’s a peaceful estate with necessary amenities for awesome family life and a secured investment.",
             image: "/images/property/land3.jpg",
             price: "750,000",
-            type: "Land"
+            type: "Land",
+            mainLocation: "Awoyaya",
+            ADimension: "4 Bedroom Apartment",
+            title: "Governor’s Consent"
             },
             {
                 id: "6",
@@ -58,6 +70,9 @@ const propertyData = [
                 image: "/images/property/house3.jpg",
                 price: "30,000,000",
                 type: "House",
+                mainLocation: "Awoyaya",
+                ADimension: "4 Bedroom Apartment",
+                title: "Governor’s Consent"
                 }
 ]
        
