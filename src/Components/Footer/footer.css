@@ -21,14 +21,11 @@ footer .footer_content a {
   font-size: 24px;
 }
 
-.footer_content span {
-  display: block;
-}
-
 .footer_content .fa,
 .fas {
   margin-right: 10px;
   color: #fff;
+  text-align: left;
 }
 
 .footer_top ul li {

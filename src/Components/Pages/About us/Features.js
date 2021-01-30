@@ -7,7 +7,7 @@ const Features = () => {
     <div className="features mb-5">
       <div className="container container-sm">
         <div className="row">
-          <div className="col-lg-4 col-md-4 col-sm-12 col-12 mb-3">
+          <div className="col-lg-4 col-md-4 col-sm-12 col-12 mb-2">
             <FeatureItem>
               <h3>Why Choose Us?</h3>
               <p>

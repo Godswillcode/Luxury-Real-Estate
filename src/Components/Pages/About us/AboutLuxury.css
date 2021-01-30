@@ -18,3 +18,10 @@
   color: gray;
   text-align: justify;
 }
+
+
+@media(max-width: 768px) {
+  .about {
+    margin-bottom: 0;
+  }
+}

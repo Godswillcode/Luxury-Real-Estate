@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer_top">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 col-md-4 col-sm-6 col-12 mb-3">
+            <div className="col-lg-4 col-md-4 col-12 mb-3">
               <FooterChild>
                 <div className="footer_content">
                   <h3>Get In Touch!</h3>
@@ -21,8 +21,8 @@ const Footer = () => {
                   </p>
                   <p>
                     {" "}
-                    <i className="fa fa-map"></i> Suite, 18/18A, sky Mall,{" "}
-                    <span>Km 27, Lekki-Epe Expressway Lagos</span>{" "}
+                    <i className="fa fa-map"></i> Suite, 18/18A, sky Mall, Km
+                    27, Lekki-Epe Expressway Lagos{" "}
                   </p>
                   <p>
                     {" "}
@@ -35,11 +35,11 @@ const Footer = () => {
               </FooterChild>
             </div>
 
-            <div className="col-lg-4 col-md-4 col-sm-6 col-12 mb-3">
+            <div className="col-lg-4 col-md-4  col-12 mb-3">
               <FooterChild>
-                <div className="footer_content">
-                  <h3>Quick Links</h3>
-                  <ul>
+                <div className="footer_content text-left">
+                  <h3 className="text-left">Quick Links</h3>
+                  <ul className="text-left">
                     <li>
                       <i className="fas fa-chevron-right"></i>
                       <a href="#!">Career</a>
@@ -61,9 +61,9 @@ const Footer = () => {
               </FooterChild>
             </div>
 
-            <div className="col-lg-4 col-md-4 col-sm-6 col-12 mb-3">
+            <div className="col-lg-4 col-md-4 col-12 mb-3">
               <FooterChild>
-                <div className="footer_content text-center">
+                <div className="footer_content">
                   <h3>About us</h3>
                   <p>
                     A good real estate agent doesn’t just sell properties they
@@ -114,11 +114,7 @@ const Footer = () => {
 
 // Child component
 function FooterChild({ children }) {
-  return (
-    <div className="d-flex justify-content-center">
-      <div>{children}</div>;
-    </div>
-  );
+  return <div>{children}</div>;
 }
 
 export default Footer;
