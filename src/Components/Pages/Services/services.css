@@ -51,6 +51,13 @@
     font-size: 21px;
     padding-top: 25px;
   }
+  .service-item {
+    padding: 40px 0 37px 0;
+  }
+
+  .service-item .service-item__content {
+    padding: 0 12px 8px 12px;
+  }
 }
 
 /* FARM ESTATE */
