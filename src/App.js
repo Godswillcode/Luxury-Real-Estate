@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route, useLocation } from "react-router-dom";
+import { AnimatePresence } from 'framer-motion'
 import Navbar from "./Components/Navbar/Navbar";
 import MobileNav from "./Components/MobileNavbar/MobileNav";
 import FarmEstate from "./Components/Pages/Services/FarmEstate";
@@ -18,17 +19,20 @@ import Property from "./Components/Pages/Property/Property";
 import Login from "./Components/Pages/Sign Up/Login";
 import PropertyDetail from "./Components/Pages/Property/PropertyDetail";
 import propertyData from "./Components/Pages/Property/propertyData";
+import NotFoundPage from "./Components/NotFoundPage";
+import BackToTop from "./Components/BackToTop";
 
 function App() {
+  let location = useLocation(); 
   return (
-    <Router>
+    <div className="App">
       <Navbar />
       <MobileNav />
-
+       <BackToTop />
       <div style={{ marginBottom: 80 }}></div>
-
       <ScrollToTop />
-      <Switch>
+       <AnimatePresence exitBeforeEnter>
+       <Switch location={location} key={location.pathname}>
         <Route path="/" exact>
           <Home />
         </Route>
@@ -70,13 +74,16 @@ function App() {
         </Route>
 
         <Route path="/logIn">
-          {" "}
-          <Login />{" "}
+          <Login />
+        </Route>
+        <Route path="*">
+          <NotFoundPage/>
         </Route>
       </Switch>
+       </AnimatePresence>
 
       <Footer />
-    </Router>
+</div>
   );
 }
 

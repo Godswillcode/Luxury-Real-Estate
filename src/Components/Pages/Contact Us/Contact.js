@@ -1,6 +1,8 @@
 import React from 'react';
 import '../../Footer/footer.css';
 import './Contact.css'
+import { motion } from 'framer-motion';
+import { animationTwo, transition } from '../../../Animation/animation';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
@@ -24,7 +26,7 @@ function Contact() {
    document.getElementById('clearInput').reset()
  }
     return (
-        <div>
+        <motion.div initial='out' animate='in' exit='out' variants={animationTwo} transition={transition} >
             <div className="banner d-flex justify-content-center text-center">
         <div className="banner-content">
           <h2>Contact Us</h2>
@@ -115,7 +117,7 @@ function Contact() {
           </div>
            </div>
       </div>
-        </div>
+        </motion.div>
     )
 }
 

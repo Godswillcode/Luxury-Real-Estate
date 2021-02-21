@@ -1,19 +1,16 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./AboutLuxury.css";
 import Features from "./Features";
 import Testimonial from "../../Testimonials/Testimonial";
-import Aos from "aos";
 import "aos/dist/aos.css";
 import OurTeam from "./OurTeam";
+import { motion } from 'framer-motion';
+import { animationTwo, transition } from '../../../Animation/animation';
 
 function AboutLuxury() {
-    useEffect(() => {
-        Aos.init({ duration: 1000 });
-      }, []);
-      
   return (
+    <motion.div initial='out' animate='in' exit='out' variants={animationTwo} transition={transition} >
     <div className="bg-white">
-
         {/* Banner */}
       <div className="banner d-flex justify-content-center text-center">
         <div className="banner-content">
@@ -22,7 +19,7 @@ function AboutLuxury() {
       </div>
 
       <div className="container">
-        <div className="row about" data-aos="zoom-in">
+        <div className="row about">
           <div className="col-lg-6 col-md-12 col-sm-12 col-12 mb-3">
             <div className="about-img">
               <img
@@ -56,6 +53,7 @@ function AboutLuxury() {
       <OurTeam/>
       <Testimonial />
     </div>
+    </motion.div>
   );
 }
 

@@ -203,3 +203,20 @@
     font-size: 30px;
   }
 }
+
+.backToP .backToP-link {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+@media (min-width: 993px) {
+  .backToP {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .p-detail-wrap {
+    margin: 0;
+  }
+}

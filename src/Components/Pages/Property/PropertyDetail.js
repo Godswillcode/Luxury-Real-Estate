@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, useParams } from "react-router-dom";
+import { NavLink, useParams, Link } from "react-router-dom";
 import { Tab, Tabs } from "react-bootstrap";
 
 function PropertyDetail({ data }) {
@@ -10,6 +10,11 @@ function PropertyDetail({ data }) {
   if (property) {
     propertyData = (
       <div className="container">
+        <div className="backToP text-center pb-2 pt-4">
+          <Link to="/properties" className="backToP-link">
+            Back to Properties
+          </Link>
+        </div>
         <div className="p-detail-wrap border">
           <div className="p-top d-flex justify-content-between pl-3 pr-3 pt-2 pb-3 border-bottom">
             <div>
@@ -71,9 +76,9 @@ function PropertyDetail({ data }) {
                     <div className="payment-plan mt-3">
                       <h3 className="payment-title">Payment plan</h3>
                       <div className="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-12 mb-4">
-                          <div class="single_plan shadow">
-                            <div class="deal_top">
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-12 mb-4">
+                          <div className="single_plan shadow">
+                            <div className="deal_top">
                               <h3>3 Months plan</h3>
                               <h4>
                                 10 <span>%</span>
@@ -81,8 +86,8 @@ function PropertyDetail({ data }) {
                               <h5>Monthly</h5>
                             </div>
 
-                            <div class="deal_bottom">
-                              <ul class="deal_item">
+                            <div className="deal_bottom">
+                              <ul className="deal_item">
                                 <li>
                                   <b>AT:</b> &#8358;5,000,000 monthly
                                 </li>
@@ -93,9 +98,9 @@ function PropertyDetail({ data }) {
                             </div>
                           </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-12 mb-4">
-                          <div class="single_plan shadow">
-                            <div class="deal_top">
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-12 mb-4">
+                          <div className="single_plan shadow">
+                            <div className="deal_top">
                               <h3>6 Months plan</h3>
                               <h4>
                                 20 <span>%</span>
@@ -103,8 +108,8 @@ function PropertyDetail({ data }) {
                               <h5>Monthly</h5>
                             </div>
 
-                            <div class="deal_bottom">
-                              <ul class="deal_item">
+                            <div className="deal_bottom">
+                              <ul className="deal_item">
                                 <li>
                                   <b>AT:</b> &#8358;5,000,000 monthly
                                 </li>
@@ -140,7 +145,21 @@ function PropertyDetail({ data }) {
       </div>
     );
   } else {
-    propertyData = <h2> Sorry. Property doesn't exist </h2>;
+    propertyData = (
+      <div className="page-wrap">
+        <div className="container d-flex justify-content-center align-items-center wrapper">
+          <div className="content-wrap text-center p-3">
+            <h1>404</h1>
+            <h4>OPPS! PROPERTY NOT FOUND</h4>
+            <p>Sorry, the property your are looking for does not exist </p>
+
+            <Link to="/properties" className="btn btn-outline-primary">
+              Return to properties
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
   }
 
   return <div>{propertyData}</div>;

@@ -27,7 +27,7 @@ function MobileNav() {
     <nav className="mobilNav">
       <div className="top_wrap">
         <NavLink to="/">
-          <img src="images/logo.png" alt="logo" />
+          <img src="/images/logo.png" alt="logo" />
         </NavLink>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />

@@ -1,21 +1,26 @@
-import React, { useEffect } from "react";
-import Aos from "aos";
+import React from "react";
 import "aos/dist/aos.css";
 import Testimonial from "../../Testimonials/Testimonial";
 import "./Home.css";
 import OverView from "./OverView";
 import Intro from "./Intro";
 import { Button } from "../../Gbutton";
+import { motion } from "framer-motion";
+import { animationOne, transition } from "../../../Animation/animation";
 
 function Home() {
-  useEffect(() => {
-    Aos.init({ duration: 1500 });
-  }, []);
   return (
-    <>
+    <motion.div
+      initial="out"
+      animate="in"
+      exit="out"
+      variants={animationOne}
+      transition={transition}
+    >
       {/* ============================
        Hero Picture background
     ============================== */}
+
       <div id="hero">
         <div className="outer d-flex justify-content-center align-items-center">
           <div className="detail text-center text-white container">
@@ -35,7 +40,7 @@ function Home() {
       <Intro />
       <OverView />
       <Testimonial />
-    </>
+    </motion.div>
   );
 }
 
