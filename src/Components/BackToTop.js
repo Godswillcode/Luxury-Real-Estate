@@ -19,8 +19,10 @@ const BackToTop = () => {
     return false;
   }
   return (
-    <div className="scroll-to-top text-center" onClick={scroll}>
+    <div className="scroll-to-top" onClick={scroll}>
+      
       <i className="icon fas fa-chevron-up"></i>
+      {/* <i className="icon fas fa-chevron-up"></i> */}
     </div>
   );
 };
